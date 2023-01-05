@@ -22,6 +22,6 @@ y dos archivos auxiliares:
 
 * **obj.data:** contiene la información del número de clases a identificar dentro de la imagen, la ruta donde se encuentra el archivo .txt con las imágenes de entrenamiento, la ruta donde se encuentra el archivo .txt con las imágenes de validación, la ruta donde se encuentra el archivo obj.names y la ruta donde se almacenara el backup.
 
-* **obj.names:** archivo con nombres de objetos etiquetados en las imagenes de entrenamiento, cada uno en una nueva línea.
+* **obj.names:** archivo con nombres de objetos etiquetados en las imagenes de entrenamiento, cada uno en una nueva línea. Para el caso del dataset utilizado, se cuenta con 12 nombres de clase de códigos QR (versiones)
 
 Esta estructura debe conservarse en Google Drive para correr el notebook de Google Colab creado para el entrenamiento del modelo.
