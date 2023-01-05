@@ -6,5 +6,5 @@ Los datasets disponibles ya cuentan con las etiquetas de los códigos QR y el ar
 
 La muestras de datos utilizada está compuestas por 325 imágenes que fueron separadas en 2 dataset: 
 1. **obj.zip :** imágenes y etiquetas para el entrenamiento del modelo YOLOv4 (80 %) 
-2. **test.zip:** imágenes y etiquetas para del modelo (20 %)
+2. **test.zip:** imágenes y etiquetas para la validación del modelo (20 %)
 
