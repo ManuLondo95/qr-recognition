@@ -1,1 +1,0 @@
-# Preparación de los datos
