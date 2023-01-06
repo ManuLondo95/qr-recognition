@@ -1,14 +1,9 @@
 # Reconocimiento de Códigos QR en imagenes utilizando YOLOv4
 
-Repositorio del modelo de reconocimiento de códigos qr
+Repositorio del modelo de reconocimiento de códigos qr entrenado con YOLOv4
 
-Step by Step
-1. Data preparetion:
-    
-    En el notebook: se encuentra el proceso desarrollado para convertir el dataset en formato YOLOv4
+1. Preparación de los datos: consulte [data_preparation]()
+2. Entreamiento del modelo: Consulte [train_model]()
+3. Despliegue y predicción: Consulte [deploy_model]()
 
-2. Entrenamiento del modelo
-
-     En el notebook: se encuentra el proceso ejecutado para el entrenamiento de un modelo YOLOv4 personalizado 
-
-3. Implementación de modelo en Vertex AI de Google Cloud Platform 
+Para mas información: manu2320@gmail.com
