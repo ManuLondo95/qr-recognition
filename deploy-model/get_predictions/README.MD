@@ -16,4 +16,4 @@
     **result_path** path donde se almacena la imagen con las predicciones
     
 ## ¿Cómo decodificar códigos QR?
-Se incluye un notebook que permite la decodficación de códigos QR (no se integra con la solución actual, es un recurso extra).
+Se incluye un [notebook](https://github.com/ManuLondo95/qr-recognition/blob/c9f644d06532366ca231148bf700ac998f7bbc26/deploy-model/decodificacion_qrcodes.ipynb) que permite la decodficación de códigos QR (no se integra con la solución actual, es un recurso extra).
