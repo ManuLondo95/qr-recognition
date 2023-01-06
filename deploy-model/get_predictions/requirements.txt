@@ -1,0 +1,7 @@
+google-api-python-client
+google-cloud-aiplatform 
+opencv-python
+numpy
+typing
+Pillow
+argparse
