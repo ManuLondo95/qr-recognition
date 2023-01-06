@@ -55,7 +55,7 @@ def get_result(image_path, result_path, predictions):
 #---------------------#
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument("keyid_path", help = "Introduzca la ruta donde se almacena el archivo .json con la clave de acceso", type = str)
+    parser.add_argument("tokenid_path", help = "Introduzca la ruta donde se almacena el archivo .json con la clave de acceso", type = str)
     parser.add_argument("image_path", help = "Introduzca la ruta donde se almacena la imagen que quiere probar", type = str)
     parser.add_argument("result_path", help = "Introduzca la ruta donde se almacenan los resultados", type = str)
     args = parser.parse_args()
@@ -67,7 +67,7 @@ if __name__ == '__main__':
         print("======= Enviando predicción de prediccón ======")
         try:
             predictions = predict_custom_trained_model_sample(project_id,endpoint_id,instance,location="us-central1", 
-            api_endpoint = "us-central1-aiplatform.googleapis.com", tokenid=args.keyid_path)
+            api_endpoint = "us-central1-aiplatform.googleapis.com", tokenid=args.tokenid_path)
             print("======= Nueva predicción ======")
         except:
             print("====== No se identifican códigos QR en la imagen =======")
