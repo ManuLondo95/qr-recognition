@@ -15,3 +15,5 @@
     
     **result_path** path donde se almacena la imagen con las predicciones
     
+## ¿Cómo decodificar códigos QR?
+Se incluye un notebook que permite la decodficación de códigos QR (no se integra con la solución actual, es un recurso extra)
