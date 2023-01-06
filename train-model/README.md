@@ -1,5 +1,7 @@
 # Entrenamiento del modelo de identificación de objetos personalizado para códigos QR
 
+Para consultar el proceso de entrenamiento ejecutado, explore el Notebook de [Google Colab]()
+
 ## Modelos Evaluados:
 
 Se seleccionan 4 modelos, correspondientes a la iteracion 1300, 1500, 1800 y 2100. Se utilizaran las siguientes métricas para comparar los modelos:
@@ -41,4 +43,17 @@ Se seleccionan 4 modelos, correspondientes a la iteracion 1300, 1500, 1800 y 210
     Recall = 0.77  -  mAP = 0.6730 - IoU = 48.77 %
    
     <img src="https://user-images.githubusercontent.com/87614301/210924185-f28af5cd-fa6d-47cd-97dc-a62802122a49.png" width=50% height=50%>
+    
+## Modelo seleccionado
+
+Teniendo en cuenta las métricas obtenidas, se seleccionan los pesos de la iteración 1800 ya que tienen la IoU métrica más alta y las demás son satisfactorias y de buen ajuste comparadas con las obtenidas por los pesos de otras iteraciones.
+
+## Resultados con imagenes de prueba
+
+<img src="https://user-images.githubusercontent.com/87614301/210927763-99f09fb7-a97c-4aba-a531-81f9f0d40a55.png" width=50% height=50%>
+
+<img src="https://user-images.githubusercontent.com/87614301/210927817-bab5ba52-65f5-420a-88d8-b891acab137a.png" width=50% height=50%>
+
+
+
 
