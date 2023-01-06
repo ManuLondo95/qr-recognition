@@ -1,6 +1,6 @@
 # Entrenamiento del modelo de identificación de objetos personalizado para códigos QR
 
-Para consultar el proceso de entrenamiento ejecutado, explore el Notebook de [Google Colab]()
+Para consultar el proceso de entrenamiento ejecutado, explore el Notebook de [Google Colab](https://github.com/ManuLondo95/qr-recognition/blob/719eb8c71145b3e943b2ba07c204fa7bbab8f1fe/train-model/Entrenamiento_modelo_qr_recognition.ipynb)
 
 ## Modelos Evaluados:
 
