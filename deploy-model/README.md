@@ -32,6 +32,7 @@ La salida en sí del modelo desplegado en Vertex AI es simplemente una matriz Nu
 Se carga el archivo save_model.py modificado.
 
 Para convertir el modelo se ejecuta la siguiente sentencia:
+
 tensorflow-yolov4-tflite % python save_model.py --weights data/yolov4-custom_best_1800.weights --output output/yolov4_1800 --input_size 416 --model yolov4
 
 
