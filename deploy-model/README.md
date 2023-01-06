@@ -1,5 +1,7 @@
 # Despliegue del modelo en Vertex AI
 
+**Nota:** Para obtener función de predicción verifique [get_predictions]()
+
 Para el despliegue del modelo se utiliza el servicio de Google Cloud Platform Vertex AI que permite la creación de endpoints para obtener predicciones de modelos entrenados en pipelines del propio Vertex AI o de modelos personalizados importados.
 
 Una manera de desplegar un modelo personalizado usando Vertex AI es usar los contenedores prediseñados. Con estos contenedores, se requiere cargar los archivos del modelo guardado (por ejemplo en TensorFlow) en un depósito de Google Cloud Storage, implementar el modelo y luego crear el punto de extremo para solicitar predicciones. Sin embargo, todas las versiones de YOLO se crearon y publicaron originalmente en Darknet, que tiene un formato de salida de modelo patentado. Esto significa que no puede simplemente entrenar su modelo en Darknet y usar los pesos entrenados directamente como modelo guardado de TensorFlow.
