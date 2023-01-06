@@ -1,6 +1,6 @@
 # Despliegue del modelo en Vertex AI
 
-**Nota:** Para obtener función de predicción verifique [get_predictions]()
+**Nota:** Para obtener la función de predicción consulte la carpeta [get_predictions](https://github.com/ManuLondo95/qr-recognition/tree/main/deploy-model/get_predictions)
 
 Para el despliegue del modelo se utiliza el servicio de Google Cloud Platform Vertex AI que permite la creación de endpoints para obtener predicciones de modelos entrenados en pipelines del propio Vertex AI o de modelos personalizados importados.
 
